@@ -7,7 +7,9 @@
  *      join('|', [1, 2, 3]);    //=> '1|2|3'
  */
 
-function join() {}
+function join() {
+
+}
 
 /* Q2 (*)
  * Returns the last element of the given list or string.
@@ -19,7 +21,9 @@ function join() {}
  *     last(''); //=> ''
  */
 
-function last() {}
+function last(item) {
+  return item.slice(Math.max(item.length - 1, 0));
+}
 
 /* Q3
  * Determine if an array of 3 points form a straight line.
